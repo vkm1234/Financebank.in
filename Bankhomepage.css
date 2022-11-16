@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.active{
+    text-decoration: green;
+    font-weight: bold;
+}
+body ,html{
+    overflow-x: hidden;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 10;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    color: yellow;
+    padding-right: 100px;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 30px;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(robert-bye-jeF-vyxytb4-unsplash.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 300px;
+    color: white;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.btnone{
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.btntwo{
+    padding: 8px 15px;
+    background: green;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+}
+.search-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px; 
+}
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: fixed;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur;
+}
+.search-bar input{
+    background: rgba(0,0,0,0.4);
+    flex: 1;
+    border: 0;
+    outline: invert;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+.search-bar button img{
+      width: 25px;     
+}
+.search-bar button{
+    border: 0;
+    border-radius: 40%;
+    width: 60px;
+    height: 50px;
+    background: rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(73, 73, 126);
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loans .row{
+    margin-top: 50px;
+
+}
+h4{
+    font-size: 3vmin;
+    color: #484872;
+    margin: 20px auto;
+}
+p{
+    color: #7c7c7c;
+    padding: 0px 40px;
+}
+.loans .btntwo{
+    margin-top: 30px;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background-image: url(dppexels-pixabay-164527.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.about-content{
+    width: 60%;
+    padding: 50px;
+    color: green;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.about-content h1{
+    font-size: 7vmin;
+}
+.about-content .line{
+    margin-bottom: 50px;
+}
+.about-content p{
+    color: black;
+}
+.about-content .btntwo{
+    margin-top: 40px;
+    
+}

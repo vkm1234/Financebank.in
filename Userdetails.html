@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Userdetails.css">
+</head>
+
+<body onload="BankAccount.loggedUser()">
+    <div class="login-box">
+        <form action="">
+            <h2>USER DETAILS</h2>
+            <div class="btn-group">
+                <a href="index.html">Home</a><a href="Transaction.html">Transaction</a> <a
+                    href="Loan.html">Loan</a> <button class="btn btn-primary btn-sm" type="button" onclick="BankAccount.logout()">Logout</button>
+            </div>       
+            <div class="user-box">
+                <p class="user-no">Account  :</p>
+                <p id="Account no"></p>
+           
+                <p>Name : </p>
+                <p id="userName"></p>
+            
+                <p>Address:</p>
+                <p id="userAdderss"></p>
+            
+                <p>Age :</p>
+                <p id="userAge"></p>
+            
+                <p>Email : </p>
+                <p id="userEmail"></p>
+            
+                <p class="blance">Balance :</p>
+                <p id="userBalance"></p>
+            </div>
+        </form>
+
+    </div>
+    <script src="script.js">
+    </script>
+
+    <!-- <div class="login-box">
+        <h2>Login</h2>
+        <form method="POST" action="loginac">
+          
+          <div class="user-box">
+            <input type="text" name="username"  id="txtusername" required="">
+            <label>Username</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="passtxt" id="passtxt"required="">
+            <label>Password</label>
+          </div>
+          <button class="glow-on-hover" type="submit">Login</button><br>
+          <div class="user-box">
+            <label class="user-box" for="terms">I you haven't an account.</label><br>
+            <br>
+        </div> -->
+</body>
+
+</html>
